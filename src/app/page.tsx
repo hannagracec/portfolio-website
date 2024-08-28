@@ -2,6 +2,8 @@
 import React, { useRef } from "react";
 import Header from "./components/header";
 import Landing from "./components/landing";
+import AboutMe from "./components/aboutMe";
+import Skills from "./components/skills";
 
 export default function Home() {
   const aboutMeSection = useRef<HTMLDivElement>(null);
@@ -23,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-off-white text-black-ish">
+    <div className="bg-off-white text-black-ish flex flex-col items-center">
       <Header 
         aboutMeScroll={scrollToAboutMe}
         projectsScroll={scrollToProjects}
@@ -31,13 +33,15 @@ export default function Home() {
         contactMeScroll={scrollToContactMe}
       />
       <Landing />
-      <div ref={aboutMeSection} className="h-screen">
+      <div ref={aboutMeSection} className="h-full ms:flex ms:px-28 ms:py-20">
+        <AboutMe />
+        <Skills />
       </div>
-      <div ref={projectsSection} className="h-screen">
+      <div ref={projectsSection} className="h-full">
       </div>
-      <div ref={experienceSection} className="h-screen">
+      <div ref={experienceSection} className="h-full">
       </div>
-      <div ref={contactMeSection} className="h-screen">
+      <div ref={contactMeSection} className="h-full">
       </div>
     </div>
   );

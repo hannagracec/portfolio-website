@@ -13,6 +13,9 @@ const config: Config = {
         "black-ish": "#222222",
         "deep-blue": "#383E79",
       },
+      screens: {
+        'ms': '970px',
+      },
     },
   },
   plugins: [],
