@@ -60,3 +60,27 @@ body {
   --swiper-navigation-size: 30px;
 }
 
+.vertical-timeline-element-icon {
+  background: #383E79;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1023px) {
+  .vertical-timeline-element-icon {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .vertical-timeline-element-icon {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+

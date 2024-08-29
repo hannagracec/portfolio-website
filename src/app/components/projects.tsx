@@ -58,7 +58,7 @@ const projects = [
 const Projects = () => {
   return (
     <div 
-      className="px-10 md:px-28 py-8 md:py-24 mb-10 flex flex-col items-center"
+      className="px-10 md:px-28 py-8 md:py-24 mb-10 md:pb-0 flex flex-col items-center"
       style={{
         backgroundImage: `url(${background_image})`,
         backgroundSize: "cover",

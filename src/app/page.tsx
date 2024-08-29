@@ -5,6 +5,7 @@ import Landing from "./components/landing";
 import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
+import Experience from "./components/experience";
 
 export default function Home() {
   const aboutMeSection = useRef<HTMLDivElement>(null);
@@ -34,14 +35,15 @@ export default function Home() {
         contactMeScroll={scrollToContactMe}
       />
       <Landing />
-      <div ref={aboutMeSection} className="h-full ms:flex ms:px-28 ms:py-20">
+      <div ref={aboutMeSection} className="w-full max-w-[1200px] ml:flex ml:flex-grow ml:py-20 justify-center">
         <AboutMe />
         <Skills />
       </div>
       <div ref={projectsSection} className="w-full">
         <Projects />
       </div>
-      <div ref={experienceSection} className="h-full">
+      <div ref={experienceSection} className="w-full">
+        <Experience />
       </div>
       <div ref={contactMeSection} className="h-full">
       </div>
