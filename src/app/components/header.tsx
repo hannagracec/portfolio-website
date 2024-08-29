@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({
         </div>
 
         <button
-          className="md:hidden px-4 border border-black-ish ml-auto mb-4 text-black-ish font-black text-lg rounded-full"
+          className="md:hidden px-4 bg-black-ish ml-auto mb-4 text-white text-lg rounded-full"
           onClick={toggleDropdown}
         >
           ☰

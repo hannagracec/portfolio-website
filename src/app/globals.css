@@ -49,3 +49,14 @@ body {
   animation: typing 4s steps(30, end) 1s 1 normal both, cursor 500ms step-end infinite;
 }
 
+.swiper-container {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  --swiper-navigation-color: #222222;
+  --swiper-navigation-size: 30px;
+}
+

@@ -12,6 +12,7 @@ const config: Config = {
         "off-white": "#EBEBEB",
         "black-ish": "#222222",
         "deep-blue": "#383E79",
+        "md-blue": "#7179B7",
       },
       screens: {
         'ms': '970px',
