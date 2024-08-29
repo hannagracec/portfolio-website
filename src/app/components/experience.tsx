@@ -48,7 +48,7 @@ const timelineEvents = [
   {
     date: "June 2023 - August 2023",
     title: "In-Home Private Tutor",
-    subtitle: "Women In Science and Engineering",
+    subtitle: "Tutor Doctor",
     content: `Tutored students in grades 1-12 across math, science, social studies, and ELA. 
               Developed and implemented 20 personalized lesson plans to meet individual learning needs`,
     skills: "Planning, organization, teaching, communication",
