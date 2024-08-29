@@ -15,7 +15,7 @@ const AboutMe = () => {
           </div>
           <div className="w-full px-2">
             <div className={`text-center ${HEADER_CONTAINER_STYLES}`}>
-                <i className={`text-xl ms:text-4xl ${playfair_display.className}`}>ABOUT ME</i>
+                <i className={`text-xl md:text-4xl ${playfair_display.className}`}>ABOUT ME</i>
             </div>
           </div>
         </div>

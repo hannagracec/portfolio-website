@@ -13,11 +13,11 @@ const arrow_right = "/arrow_right.svg";
 
 const ProjectTile = ({ name, cover, about, skills, link, alt }: ProjectTileProps) => {
   return (
-    <div className="bg-off-white ms:py-16 shadow-md mb-2 p-12 w-full rounded-2xl flex flex-col ms:flex-row items-center">
-      <div className="ms:mr-10">
-        <Image src={cover} height={200} width={200} alt={alt} className="rounded-xl ms:size-full max-size-[250px] shadow-lg"/>
+    <div className="bg-off-white ml:py-24 shadow-md mb-2 p-12 w-full rounded-2xl flex flex-col ms:flex-row items-center">
+      <div className="ms:size-full ms:mr-4 flex justify-center max-size-[250px]">
+        <Image src={cover} height={300} width={300} alt={alt} className="rounded-xl shadow-lg"/>
       </div>
-      <div className="mt-6 ms:mt-0 w-full ms:pr-4">
+      <div className="mt-6 ms:mt-0 w-full ml:pr-10">
         <h1 className="font-black text-2xl ms:text-3xl">{name}</h1>
         <p className="mt-4 text-left">{about}</p>
         <p className="mt-2 italic"><span className="font-bold">Skills Used:</span> {skills}</p>

@@ -6,6 +6,7 @@ import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Experience from "./components/experience";
+import Contact from "./components/contact";
 
 export default function Home() {
   const aboutMeSection = useRef<HTMLDivElement>(null);
@@ -45,7 +46,8 @@ export default function Home() {
       <div ref={experienceSection} className="w-full">
         <Experience />
       </div>
-      <div ref={contactMeSection} className="h-full">
+      <div ref={contactMeSection} className="w-full">
+        <Contact />
       </div>
     </div>
   );

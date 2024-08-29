@@ -58,12 +58,7 @@ const projects = [
 const Projects = () => {
   return (
     <div 
-      className="px-10 md:px-28 py-8 md:py-24 mb-10 md:pb-0 flex flex-col items-center"
-      style={{
-        backgroundImage: `url(${background_image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="px-10 bg-deep-blue md:px-28 py-8 ml:py-24 mb-10 flex flex-col items-center"
     >
       <div className="max-w-[1200px] w-full">
         <div className="border border-white text-white rounded-full mb-4 md:mb-6  flex px-4 py-2">

@@ -73,15 +73,15 @@ const Skills = () => {
 
   return (
     <div className="md:px-28 pb-10 px-10 ml:p-0 ml:ml-6 ml:w-[60%]">
-      <div className="w-full p-6 bg-white shadow-lg rounded-3xl min-h-[580px] flex flex-col">
+      <div className="w-full p-6 bg-[#F6F6F6] shadow-lg rounded-3xl min-h-[580px] flex flex-col">
         <div className="flex justify-between items-center px-4 rounded-full border border-black-ish p-2 mb-6 h-full">
             <Image src={star_icon} height={40} width={35} alt="Star icon" className="ms:size-10 size-6" />
-            <p className="text-xl ms:text-4xl text-center font-semibold italic">SKILLS AND TOOLS</p>
+            <p className="text-xl md:text-4xl text-center font-semibold italic">SKILLS AND TOOLS</p>
             <Image src={star_icon} height={40} width={35} alt="Star icon" className="ms:size-10 size-6" />
         </div>
         <div className={`grid grid-cols-2 sm:grid-cols-3 gap-6 transition-opacity duration-300 mb-auto ${animationClass}`}>
           {paginatedSkills.map((skill, index) => (
-            <div key={index} className="flex flex-col items-center justify-center transition-transform duration-500 hover:scale-105 border border-black-ish rounded-xl py-12">
+            <div key={index} className="flex flex-col items-center justify-center transition-transform duration-500 hover:scale-105 bg-white shadow-lg rounded-xl py-12">
               <Image src={skill.icon} alt={skill.name} height={50} width={50} className="mb-2" />
               <p className="text-center text-lg font-medium">{skill.name}</p>
             </div>

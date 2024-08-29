@@ -59,11 +59,11 @@ const timelineEvents = [
 
 const Experience = () => {
   return (
-    <div className="px-10 md:px-28 md:py-10 flex justify-center">
+    <div className="px-10 md:px-28 md:py-10 flex justify-center mb-4">
       <div className="w-full max-w-[1200px]">
         <div className="flex items-center border border-black-ish rounded-full px-4 py-2 mb-10">
           <Image src={badge_icon} height={35} width={35} alt="Experience icon" className="size-8 mr-2" />
-          <h1 className="font-medium italic text-2xl md:text-4xl">MY EXPERIENCE</h1>
+          <h1 className="font-bold italic text-2xl md:text-4xl">MY EXPERIENCE</h1>
         </div>
         <VerticalTimeline animate={true}>
           {timelineEvents.map((event, index) => (
